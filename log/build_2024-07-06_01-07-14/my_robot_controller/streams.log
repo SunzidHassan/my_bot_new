@@ -1,0 +1,25 @@
+[0.911s] Invoking command in '/my_bot/build/my_robot_controller': PYTHONPATH=/my_bot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_bot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /my_bot/build/my_robot_controller/build --no-deps symlink_data
+[1.256s] running develop
+[1.257s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.257s]   warnings.warn(
+[1.448s] running egg_info
+[1.448s] creating my_robot_controller.egg-info
+[1.448s] writing my_robot_controller.egg-info/PKG-INFO
+[1.449s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.449s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.449s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.449s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.449s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.453s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.454s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.456s] running build_ext
+[1.457s] Creating /my_bot/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.458s] 
+[1.459s] Installed /my_bot/build/my_robot_controller
+[1.459s] running symlink_data
+[1.459s] creating /my_bot/install/my_robot_controller/share/ament_index
+[1.459s] creating /my_bot/install/my_robot_controller/share/ament_index/resource_index
+[1.459s] creating /my_bot/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.459s] symbolically linking /my_bot/build/my_robot_controller/resource/my_robot_controller -> /my_bot/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.459s] symbolically linking /my_bot/build/my_robot_controller/package.xml -> /my_bot/install/my_robot_controller/share/my_robot_controller
+[1.525s] Invoked command in '/my_bot/build/my_robot_controller' returned '0': PYTHONPATH=/my_bot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_bot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /my_bot/build/my_robot_controller/build --no-deps symlink_data

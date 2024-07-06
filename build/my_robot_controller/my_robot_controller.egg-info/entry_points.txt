@@ -1,0 +1,3 @@
+[console_scripts]
+my_bot_controller = my_robot_controller.my_bot_controller:main
+
