@@ -12,7 +12,12 @@
   <depend>sensor_msgs</depend>
   <depend>sensor_msgs_py</depend>
   <depend>tf2_msgs</depend>
-
+  <depend>numpy</depend>
+  <depend>cv2</depend>
+  <depend>re</depend>
+  <depend>openai</depend>
+  <depend>base64</depend>
+  <depend>requests</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

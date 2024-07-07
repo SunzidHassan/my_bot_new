@@ -10,6 +10,7 @@ from tf2_msgs.msg import TFMessage
 import numpy as np
 import cv2 as cv
 import sensor_msgs_py.point_cloud2 as pc2
+import sys
 
 class TurtleControllerNode(Node):
     def __init__(self) -> None:
@@ -19,6 +20,7 @@ class TurtleControllerNode(Node):
         self.image_subscribe = self.create_subscription(CompressedImage, "/camera/image_raw/compressed", self.image_callback, 10)
         self.pointCloud_subscirbe = self.create_subscription(PointCloud2, "/camera/points", self.pointCloud_callback, 10)
         self.get_logger().info("Turtle controller node has been started")
+        self.get_logger().info(str(sys.executable))
 
         self.grid_size = (500, 500)
         self.grid_map = np.zeros(self.grid_size, dtype=np.uint8)

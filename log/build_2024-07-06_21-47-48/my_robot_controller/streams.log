@@ -1,0 +1,19 @@
+[0.781s] Invoking command in '/my_bot/build/my_robot_controller': PYTHONPATH=/my_bot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_bot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /my_bot/build/my_robot_controller/build --no-deps symlink_data
+[0.998s] running develop
+[0.998s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.998s]   warnings.warn(
+[1.108s] running egg_info
+[1.108s] writing my_robot_controller.egg-info/PKG-INFO
+[1.109s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.109s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.109s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.109s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.111s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.112s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.114s] running build_ext
+[1.114s] Creating /my_bot/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.115s] Installing my_bot_controller= my_robot_controller.my_bot_controller:mainmy_bot_footballer script to /my_bot/install/my_robot_controller/lib/my_robot_controller
+[1.115s] 
+[1.116s] Installed /my_bot/build/my_robot_controller
+[1.116s] running symlink_data
+[1.160s] Invoked command in '/my_bot/build/my_robot_controller' returned '0': PYTHONPATH=/my_bot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_bot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /my_bot/build/my_robot_controller/build --no-deps symlink_data

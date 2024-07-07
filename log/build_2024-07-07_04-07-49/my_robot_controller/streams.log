@@ -1,0 +1,20 @@
+[0.529s] Invoking command in '/my_bot/build/my_robot_controller': PYTHONPATH=/my_bot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_bot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /my_bot/build/my_robot_controller/build --no-deps symlink_data
+[0.751s] running develop
+[0.752s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.752s]   warnings.warn(
+[0.856s] running egg_info
+[0.856s] writing my_robot_controller.egg-info/PKG-INFO
+[0.857s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.857s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.857s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.857s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.858s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.859s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.860s] running build_ext
+[0.860s] Creating /my_bot/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.861s] Installing my_bot_controller script to /my_bot/install/my_robot_controller/lib/my_robot_controller
+[0.861s] Installing my_bot_footballer script to /my_bot/install/my_robot_controller/lib/my_robot_controller
+[0.861s] 
+[0.861s] Installed /my_bot/build/my_robot_controller
+[0.862s] running symlink_data
+[0.893s] Invoked command in '/my_bot/build/my_robot_controller' returned '0': PYTHONPATH=/my_bot/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_bot/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /my_bot/build/my_robot_controller/build --no-deps symlink_data

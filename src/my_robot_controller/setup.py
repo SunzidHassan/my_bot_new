@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "my_bot_controller= my_robot_controller.my_bot_controller:main"
+            "my_bot_controller= my_robot_controller.my_bot_controller:main",
+            "my_bot_footballer= my_robot_controller.my_bot_footballer:main"
         ],
     },
 )

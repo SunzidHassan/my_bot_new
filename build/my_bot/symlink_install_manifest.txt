@@ -11,6 +11,7 @@
 /my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
 /my_bot/install/my_bot/share/my_bot/worlds/empty.world
+/my_bot/install/my_bot/share/my_bot/worlds/football.world
 /my_bot/install/my_bot/share/my_bot/worlds/obstacles.world
 /my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
 /my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot

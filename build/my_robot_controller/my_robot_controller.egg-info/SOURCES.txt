@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 my_robot_controller/__init__.py
 my_robot_controller/my_bot_controller.py
+my_robot_controller/my_bot_footballer.py
 my_robot_controller.egg-info/PKG-INFO
 my_robot_controller.egg-info/SOURCES.txt
 my_robot_controller.egg-info/dependency_links.txt
